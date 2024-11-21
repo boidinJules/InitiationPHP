@@ -8,29 +8,36 @@ function verifierFormulaire() {
     const baliseCheckbox = document.getElementById('formCheck-1');
     const baliseLabel = document.getElementById('formCheckLabel');
 
+    let isValid = true;
+
     if (baliseNom.value == '') {
         baliseNom.style.borderColor = "red";
+        isValid = false;
     } else {
         baliseNom.style.borderColor = "";
     }
 
     if (balisePrénom.value == '') {
         balisePrénom.style.borderColor = "red";
+        isValid = false;
     } else {
         balisePrénom.style.borderColor = "";
     }
 
     if (baliseEmail.value == '' || !baliseEmail.value.includes('@')) {
         baliseEmail.style.borderColor = "red";
+        isValid = false;
     } else {
         baliseEmail.style.borderColor = "";
     }
 
     if (balisePassword.value == '') {
         balisePassword.style.borderColor = "red";
+        isValid = false;
     } else if (balisePassword.value.length < 8){
         BaliseErrorpassword.classList.remove('invisible');
         balisePassword.style.borderColor = "red";
+        isValid = false;
     } else {
         balisePassword.style.borderColor = "";
         BaliseErrorpassword.classList.add('invisible');
@@ -38,6 +45,7 @@ function verifierFormulaire() {
 
     if (baliseMessage.value == '') {
         baliseMessage.style.borderColor = "red";
+        isValid = false;
     } else {
         baliseMessage.style.borderColor = "";
     }
@@ -46,6 +54,8 @@ function verifierFormulaire() {
         baliseLabel.style.color = "";
     } else {
         baliseLabel.style.color = "red";
+        isValid = false;
     }
-
+    
+    return isValid;
 }

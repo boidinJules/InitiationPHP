@@ -1,0 +1,51 @@
+[
+    {
+        "nom": "Dupont",
+        "prenom": "Alexandre",
+        "email": "alexandre.dupont@example.com",
+        "password": "pAs$w0rd1!",
+        "message": "Bienvenue, Alexandre !",
+    },
+    {
+        "nom": "Lambert",
+        "prenom": "Sophie",
+        "email": "sophie.lambert@example.com",
+        "password": "sEcRet123#",
+        "message": "Bienvenue, Sophie !",
+    },
+    {
+        "nom": "Moreau",
+        "prenom": "Yannick",
+        "email": "yannick.moreau@example.com",
+        "password": "QwErTy45&",
+        "message": "Bienvenue, Yannick !",
+    },
+    {
+        "nom": "Perrier",
+        "prenom": "Julien",
+        "email": "julien.perrier@example.com",
+        "password": "uNiQu3P@ss!",
+        "message": "Bienvenue, Julien !",
+    },
+    {
+        "nom": "Martin",
+        "prenom": "Claire",
+        "email": "claire.martin@example.com",
+        "password": "ZxCvBn76*",
+        "message": "Bienvenue, Claire !",
+    },
+    {
+        "nom": "Durand",
+        "prenom": "Emma",
+        "email": "emma.durand@example.com",
+        "password": "Pa$$word789$",
+        "message": "Bienvenue, Emma !",
+    },
+    {
+        "nom": "Bernard",
+        "prenom": "Lucas",
+        "email": "lucas.bernard@example.com",
+        "password": "R4nd0mKey99!",
+        "message": "Bienvenue, Lucas !",
+    }
+]
